@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int num1, num2;
-    
+
     // Prompt the user for two numbers
     cout << "Enter the first number: ";
     cin >> num1;
@@ -17,6 +17,9 @@ int main()
     // Perform arithmetic operations and display results
     int sum = add(num1, num2);
     cout << "Sum: " << sum << endl;
+
+    int diff = subtract(num1, num2);
+    cout << "Difference: " << diff << endl;
 
     return 0;
 }
